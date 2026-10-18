@@ -1,0 +1,46 @@
+# Allowlist: ignore everything, then re-include only files the live site needs.
+# (No README, source art, prompts, guides or notes are pushed.)
+*
+
+# Site
+!.gitignore
+!index.html
+!styles.css
+!og-image.jpg
+!robots.txt
+!sitemap.xml
+!site.webmanifest
+
+# Page images
+!web/
+!web/hub-banner-1024.webp
+!web/hub-banner-2048.webp
+!web/lfu-leaks-768.webp
+!web/lfu-leaks-1536.webp
+!web/lfu-tracker-768.webp
+!web/lfu-tracker-1536.webp
+!web/master-the-meta-768.webp
+!web/master-the-meta-1536.webp
+!web/support-lfu-leaks-768.webp
+!web/support-lfu-leaks-1536.webp
+
+# Icons
+!icons/
+!icons/external-link.svg
+!icons/lock.svg
+!icons/lfu-leaks.svg
+!icons/lfu-tracker.svg
+!icons/master-the-meta.svg
+!icons/support-lfu-leaks.svg
+
+# Favicons, touch icon, manifest icons
+!branding/
+!branding/favicon.ico
+!branding/hub-emblem-32.png
+!branding/hub-emblem-48.png
+!branding/hub-emblem-180.png
+!branding/hub-emblem-192.png
+!branding/hub-emblem-512.png
+
+# When LFU Informer goes live, also allow:
+#   !web/lfu-informer-768.webp  !web/lfu-informer-1536.webp  !icons/lfu-informer.svg

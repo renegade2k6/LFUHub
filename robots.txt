@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renegade2k6.github.io/LFUHub/sitemap.xml
