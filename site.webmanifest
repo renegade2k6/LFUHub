@@ -1,7 +1,7 @@
 {
   "name": "LFU Hub",
   "short_name": "LFU Hub",
-  "description": "LFU Hub is the community home for Last Fortress Underground: LFU Leaks update discoveries, the LFU Tracker for alliance leaders and the LFMeta tier list.",
+  "description": "LFU Hub is the community home for Last Fortress Underground: LFU Leaks update discoveries, LFU Tracker for alliance leaders, the LFU Informer Discord and the LFMeta tier list.",
   "start_url": "./",
   "display": "browser",
   "background_color": "#000000",

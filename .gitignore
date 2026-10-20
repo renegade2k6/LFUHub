@@ -16,6 +16,8 @@
 !web/
 !web/hub-banner-1024.webp
 !web/hub-banner-2048.webp
+!web/lfu-informer-768.webp
+!web/lfu-informer-1536.webp
 !web/lfu-leaks-768.webp
 !web/lfu-leaks-1536.webp
 !web/lfu-tracker-768.webp
@@ -28,7 +30,9 @@
 # Icons
 !icons/
 !icons/external-link.svg
+!icons/lfu-informer.svg
 !icons/lock.svg
+!icons/discord.png
 !icons/lfu-leaks.svg
 !icons/lfu-tracker.svg
 !icons/master-the-meta.svg
@@ -43,5 +47,3 @@
 !branding/hub-emblem-192.png
 !branding/hub-emblem-512.png
 
-# When LFU Informer goes live, also allow:
-#   !web/lfu-informer-768.webp  !web/lfu-informer-1536.webp  !icons/lfu-informer.svg

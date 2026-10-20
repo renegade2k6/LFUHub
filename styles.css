@@ -112,6 +112,28 @@ main{padding:40px 0 56px}
 .card:hover .go{border-color:var(--border-accent);background:var(--bg-hover)}
 .card:hover .go img{transform:translate(3px,-3px)}
 
+/* LFU Informer: full-width Discord feature card */
+.card:nth-child(3){animation-delay:.16s}
+.wide{--discord:#5865F2;grid-column:1/-1;flex-direction:row;
+  background:radial-gradient(circle at 100% 0%,rgba(88,101,242,.22),transparent 55%),linear-gradient(180deg,var(--bg-surface-3),var(--bg-surface-1))}
+.wide::before{content:"";position:absolute;inset:0 0 auto;height:2px;z-index:2;background:linear-gradient(90deg,var(--accent-hover),var(--discord))}
+.wide:hover{box-shadow:0 0 0 1px rgba(232,120,34,.55),0 0 36px rgba(88,101,242,.3),0 14px 32px rgba(0,0,0,.65)}
+.wide .card-img{width:46%;flex:none;aspect-ratio:auto;min-height:280px}
+.wide .card-img::after{inset:0 0 0 auto;width:45%;height:auto;background:linear-gradient(270deg,var(--bg-surface-2),transparent)}
+.wide .card-body{justify-content:center;padding:28px 32px;gap:8px}
+.wide h3{font-size:2rem}
+.wide .card-head img{width:36px;height:36px}
+.wide p:not(.kicker){max-width:46ch;font-size:1.02rem}
+.badge-discord{border-color:rgba(88,101,242,.6);background:rgba(88,101,242,.16);color:#AEB6FF}
+.badge-discord img{width:16px;height:16px;border-radius:50%}
+.go-discord{background:var(--discord);border-color:var(--discord);color:#fff;min-height:46px;padding:0 20px;font-size:1rem;box-shadow:0 6px 20px rgba(88,101,242,.35)}
+.go-discord img:first-child{width:22px;height:22px;border-radius:50%}
+.card:hover .go-discord img:first-child{transform:none}
+.card:hover .go-discord{background:#6B77FF;border-color:#6B77FF}
+@media(max-width:699px){.wide{flex-direction:column}.wide .card-img{width:100%;min-height:0;aspect-ratio:3/2}
+  .wide .card-img::after{inset:auto 0 0;width:auto;height:45%;background:linear-gradient(0deg,var(--bg-surface-2),transparent)}
+  .wide .card-body{padding:18px 20px 22px}.wide h3{font-size:1.5rem}}
+
 .compact{flex-direction:row}
 .compact .card-img{width:30%;flex:none;aspect-ratio:auto;min-height:150px}
 .compact .card-img::after{display:none}
